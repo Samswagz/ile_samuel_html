@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: whitesmoke;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+.pro1{
+    width: 100%;
+    height: 420px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.63)),url("div_images/img4.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .pro{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 50px;
+    background: none;
+}
+
+.pro h5{
+   color: white; 
+   text-transform: capitalize;
+}
+
+.pro button{
+    width: 160px;
+    height: 38px;
+    border-radius: 25px;
+    background-color: rgb(255, 0, 55);
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pro1 .pro1a{
+width: 40%;
+height: 75%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20px;
+margin-left: 20px;
+}
+
+.pro1 .pro1a h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    }
+
+    .pro1 .pro1a p{
+    color: white;
+    line-height: 25px;
+    font-size: 16.3px;
+    }
+
+    .pro1 .pro1a button{
+        width: 160px;
+        height: 38px;
+        border-radius: 25px;
+        background-color: rgb(2, 132, 219);
+        color: white;
+        text-transform: capitalize;
+        border: none;
+        outline: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        cursor: pointer;
+        }
+
+
+.pro2{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+}
+
+.pro2 .pro2a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+gap: 40px;
+    
+}
+
+.pro2 .pro2a h1{
+    font-size: 47px;
+    
+}
+
+.pro2a .pro2a1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+}
+
+.pro2a .pro2a1 button{
+    width: 120px;
+    height: 38px;
+    border-radius: 25px;
+    border: 1px solid rgb(2, 132, 219);
+    color: rgb(2, 132, 219);
+    background-color: none;
+    text-transform: capitalize;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.pro2a .pro2a1 button:focus{
+background-color: rgb(2, 132, 219);
+color: white;
+}
+
+.pro3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+}
+
+.pro3 .pro3a{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        
+}
+
+img{
+    width: 220px;
+}
+
+
+
+
+
+
+
+    
